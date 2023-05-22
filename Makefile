@@ -4,5 +4,5 @@ tdd:
 
 check:
 	doit
-	cd /tmp/ ; ls test_pp_* ; rm -r test_pp_*
+	cd /tmp/ ; ls test_pp_* ; cat test_pp_*/*/*.py ; rm -r test_pp_*
 	echo "ok"

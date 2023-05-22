@@ -1,2 +1,5 @@
-{"app_name": "Truc" }
+{"app_name": "Truc",
+ "settings_name": "{{ cookiecutter.app_name|replace('_', '')|upper }}",
+}
+
 

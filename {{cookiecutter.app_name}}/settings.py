@@ -1,7 +1,7 @@
 from project_composer.marker import EnabledApplicationMarker
 
 
-class APPNAMESettings(EnabledApplicationMarker):
+class {{cookiecutter.settings_name}}Settings(EnabledApplicationMarker):
     SETTING_VARIABLE_NAME = True
 
     @classmethod
@@ -10,6 +10,6 @@ class APPNAMESettings(EnabledApplicationMarker):
 
         cls.INSTALLED_APPS.extend(
             [
-                "this_app_name",
+                "{{cookiecutter.app_name}}",
             ]
         )
