@@ -13,3 +13,8 @@ class {{cookiecutter.settings_name}}Settings(EnabledApplicationMarker):
                 "{{cookiecutter.app_name}}",
             ]
         )
+
+
+    renders =    {{ cookiecutter.renders }}
+    _no_render = {{ cookiecutter._no_render }}
+    should = {{ cookiecutter.__should}}

@@ -1,5 +1,9 @@
 {"app_name": "Truc",
  "settings_name": "{{ cookiecutter.app_name|replace('_', '')|upper }}",
+ "rien":"rien" ,
+ "renders": "xxx {{cookiecutter.app_name|upper}}",
+ "_no_render": "xxx {{cookiecutter.app_name|upper}}",
+ "__should": "xxx {{cookiecutter.app_name|upper}}"
 }
 
 
