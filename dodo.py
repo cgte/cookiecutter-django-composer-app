@@ -22,7 +22,7 @@ def task_default():
             "echo ran",
             "",
             f"mkdir -p {destination_directory}/{IDENTIFIER}",
-            f"cookiecutter {cookiecutter_source_directory} --output-dir {destination_directory}",
+            f"cookiecutter {cookiecutter_source_directory} --no-input --output-dir {destination_directory} app_name=external_app_name",
         ],
         "verbosity": 2,
         "title": title_with_actions,
